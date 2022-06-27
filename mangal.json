@@ -1,12 +1,12 @@
 {
-    "version": "1.5.2",
+    "version": "2.0.0",
     "description": "The ultimate CLI manga downloader",
     "homepage": "https://github.com/metafates/mangal",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "hash": "9f44adf7128c00074d9ae29dc54a87c7c912d687edb27cf42fdbcca74905fb67",
-            "url": "https://github.com/metafates/mangal/releases/download/v1.5.2/mangal-windows-386.exe",
+            "hash": "ea3da401cf6faa150fbe3d379cc712a3801d93f71eb75c342a856b48880b814c",
+            "url": "https://github.com/metafates/mangal/releases/download/v2.0.0/mangal-windows-386.exe",
             "bin": [
                 [
                     "mangal-windows-386.exe",
@@ -15,8 +15,8 @@
             ]
         },
         "64bit": {
-            "hash": "9ee91606d000d981fa92c0f7c611dcaeb6f134cf809bd2599b4dc617a9f82479",
-            "url": "https://github.com/metafates/mangal/releases/download/v1.5.2/mangal-windows-amd64.exe",
+            "hash": "c8a66bb13427598a68e8a1852f675e521eb2c6aeb61090378a9e3fbde9f50266",
+            "url": "https://github.com/metafates/mangal/releases/download/v2.0.0/mangal-windows-amd64.exe",
             "bin": [
                 [
                     "mangal-windows-amd64.exe",
@@ -27,14 +27,17 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "hash": {
-            "url": "$url.sha256"
-        },
         "32bit": {
-            "url": "https://github.com/metafates/mangal/releases/download/v$version/mangal-windows-386.exe"
+            "url": "https://github.com/metafates/mangal/releases/download/v$version/mangal-windows-386.exe",
+            "hash": {
+                "url": "https://github.com/metafates/mangal/releases/download/v$version/mangal-windows-386.exe.sha256"
+            }
         },
         "64bit": {
-            "url": "https://github.com/metafates/mangal/releases/download/v$version/mangal-windows-amd64.exe"
+            "url": "https://github.com/metafates/mangal/releases/download/v$version/mangal-windows-amd64.exe",
+            "hash": {
+                "url": "https://github.com/metafates/mangal/releases/download/v$version/mangal-windows-amd64.exe.sha256"
+            }
         }
     }
 }
