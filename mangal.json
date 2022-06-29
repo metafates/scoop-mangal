@@ -1,12 +1,12 @@
 {
-    "version": "2.0.1",
+    "version": "2.1.0",
     "description": "The ultimate CLI manga downloader",
     "homepage": "https://github.com/metafates/mangal",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "hash": "565a5b00f776d519b9082198cb61bc4872dd4e8affb9d72d56c6b225ddbe24da",
-            "url": "https://github.com/metafates/mangal/releases/download/v2.0.1/mangal-windows-386.exe",
+            "hash": "a1927471c5bd8a56594eb27fe3bfcc18f170e2217c3615fba7be83770aca2290",
+            "url": "https://github.com/metafates/mangal/releases/download/v2.1.0/mangal-windows-386.exe",
             "bin": [
                 [
                     "mangal-windows-386.exe",
@@ -15,8 +15,8 @@
             ]
         },
         "64bit": {
-            "hash": "4ffabdf2a77fd54ae5d0566bd03c05563facf750249c38eb583f0004e0679a44",
-            "url": "https://github.com/metafates/mangal/releases/download/v2.0.1/mangal-windows-amd64.exe",
+            "hash": "bda406249e3e3f4a57c581b259a6eaf384db1467650f210d23a43fbc689aa3e4",
+            "url": "https://github.com/metafates/mangal/releases/download/v2.1.0/mangal-windows-amd64.exe",
             "bin": [
                 [
                     "mangal-windows-amd64.exe",
